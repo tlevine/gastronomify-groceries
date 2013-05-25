@@ -32,3 +32,5 @@ We'll use the daily treasury data compiled by CSV Soundsystem.
     export SAFEWAY_EMAIL=foo@datapad.io
     export SAFEWAY_PASSWORD=abcdefg
     ./gastronomify.py
+
+I think we're gonna need to write this in Selenium or something.
