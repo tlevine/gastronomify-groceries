@@ -4,6 +4,7 @@ Gastronomify
 We can order food from Safeway, though their website isn't great.
 Here are some notes on that.
 
+## Foods
 As a start for gastronomification, we might try fancy fruit juices
 because their identification codes are less likely to change over time.
 Here are some helpful URLs on that front.
@@ -18,3 +19,16 @@ Some obvious variables are here.
 * Fruit
 * Size of bottle
 * Number of bottles ordered
+
+## Safeway API
+Safeway's website isn't the most exciting, but we can work with it.
+
+
+## Data source
+We'll use the daily treasury data compiled by CSV Soundsystem.
+
+## How to run
+
+    export SAFEWAY_EMAIL=foo@datapad.io
+    export SAFEWAY_PASSWORD=abcdefg
+    ./gastronomify.py
